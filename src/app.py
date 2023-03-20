@@ -2,12 +2,12 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, date
 import dash_bootstrap_components as dbc
-import numpy as np
 import requests
 import io
 from dash import Dash, dcc, html, Input, Output
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Loading in data and dropping times from datetimes
 response = requests.get("https://raw.githubusercontent.com/Natalie-cho/trending_youtube_DASHboard/main/data/processed/CA_youtube_trending_data_processed.csv")
