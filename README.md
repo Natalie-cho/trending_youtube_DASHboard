@@ -13,7 +13,7 @@ Thank you for visiting my repository for my dash app! This document (README.md) 
 
 
 ## Project Proposal 
-[Link to Group 20 Milestone Proposal](https://github.com/UBC-MDS/trending_youtube_viz_R/blob/main/reports/proposal.md)
+To read more about the project's initial purpose and motivation [click here!](https://github.com/UBC-MDS/trending_youtube_viz_R/blob/main/reports/proposal.md)
 
 ## Usage
 *To view the app via Render:*
